@@ -1,0 +1,148 @@
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/NetflixSans-Regular.otf);
+}
+
+.container {
+    font-family: myfont;
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+}
+
+.padding {
+    padding: 0 50px 0 50px;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu>li>a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+ul.menu>li>a:hover {
+    color: grey;
+}
+
+.flex {
+    display: flex;
+}
+
+.space {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 90px;
+}
+
+header {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+header>div:last-child {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 1px white solid;
+    padding: 5px 20px 0;
+}
+
+header>div>input {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    color: white;
+    outline: none;
+}
+
+header>div>a>img {
+    height: 20px;
+}
+
+::placeholder {
+    color: grey;
+}
+
+/* main */
+.v-menu {
+    flex-direction: column;
+}
+
+.rowHeader {
+    color: white;
+    font-weight: 500;
+}
+
+button {
+    color: white;
+    font-size: 50px;
+    background-color: #141414;
+    border: none;
+
+}
+
+.rowButton .bx-play-circle:hover {
+    color: gray;
+}
+
+.rowButton .bx-like:hover {
+    color: gray;
+}
+
+.rowButton .bx-chevron-down-circle:hover {
+    color: gray;
+}
+
+.rowMovie {
+    width: 100%;
+    /* flex-wrap: wrap; */
+}
+
+.rowContainer {
+    margin: 10px 0 10px;
+    padding: 5px 5px;
+    flex-wrap: wrap;
+    height: 250px;
+}
+
+.rowContainer>img {
+    border-radius: 5px;
+    width: 284px;
+    height: auto;
+}
+
+.itembot {
+    display: none;
+}
+
+a:hover .itembot {
+    display: block;
+}
+
+/* footer */
+footer {
+    color: grey;
+    margin: 20px auto 0;
+    max-width: 980px;
+    padding: 0 4%;
+}
+
+table {
+    border-spacing: 60px 20px;
+    text-align: left;
+}
+
+table>tr>th>i {
+    font-size: 40px;
+}
+
+td:hover a {
+    text-decoration: 1px dotted white;
+}
