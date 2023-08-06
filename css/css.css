@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: myfont;
     src: url(../fonts/NetflixSans-Regular.otf);
@@ -33,8 +39,8 @@
 }
 
 .imgUser {
-    width: 132px;
-    height: 132px;
+    width: 12rem;
+    height: 12rem
 }
 
 .user {
@@ -46,18 +52,19 @@
 }
 
 .user:hover>div>img {
-    border: 1px white solid;
+    border: 3px white solid;
 }
 
 .user>p {
     color: gray;
+    margin-top: 20px;
 }
 
 .conten {
     color: white;
-    font-size: 45px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    font-size: 4rem;
+    margin-top: 15rem;
+    margin-bottom: 2rem;
 }
 
 .imgUser>img {
