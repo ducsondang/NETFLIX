@@ -1,7 +1,7 @@
 
 [{
     "id": 1,
-    "name":"Đề xuất"
+    "name":"Phim Đề xuất"
 }, {
     "id": 2,
     "name":"Phim phổ biến"
@@ -11,4 +11,7 @@
 }, {
     "id":4,
     "name":"Phim Top"
+},{
+    "id":4,
+    "name":"Phim thịnh hành"
 }]
