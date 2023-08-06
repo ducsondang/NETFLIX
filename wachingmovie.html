@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Trang Chu</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/cssHome.css">
-    <link rel="stylesheet" href="./reponsive/mobile.css" media="screen and (max-width: 500px)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
     <link rel="shortcut icon" href="./icons/netflix-logo.svg">
+    <link rel="stylesheet" href="./css/cssHome.css">
+    <link rel="stylesheet" href="./css/watchingmovie.css">
+    <link rel="stylesheet" href="./reponsive/mobile.css" media="screen and (max-width: 500px)">
+    <link rel="stylesheet" href="./reponsive/watchingMobile.css" media="screen and (max-width: 500px)">
     <script src="js/home.js"></script>
 </head>
 
@@ -41,32 +41,24 @@
             <input class="search" type="text" placeholder="Phim, Thể loại, Diễn Viên,..." />
         </div>
     </header>
-    <nav class="nav padding">
-        <label for="cars">Phim</label>
-        <select name="cars" id="cars">
-            <option value="volvo">Phim 16+</option>
-            <option value="saab">Âu Mỹ</option>
-            <option value="mercedes">Nhà xuất bản Việt Nam</option>
-            <option value="audi">Tình cảm</option>
-        </select>
-    </nav>
-    <main class="main">
-        <div class="backgroud">
-            <div class="model">
-                <div class="conten">
-                    <h1>Tóp 6 Phim hành động tháng</h1>
-                    <p>Một sát thủ bị đầu độc biết rằng anh ta có thể thoát đượcchết nếu tiếp tục kích thích tim khi
-                        chạy
-                        đua với tử thần</p>
+    <main class="padding">
+        <div class="flex flex-none">
+            <div class="left">
+                <div class="nameMovie">
+                    <h1>ke lap di</h1>
                 </div>
-                <div class="button">
-                    <input type="button" onclick="" value="Phát"></input>
-                    <input type="button" value="Thông Tin"></input>
+                <iframe class="movie" src="https://youtube.com/embed/ue80QwXMRHg?" title="Sơ đồ lớp (class diagram)"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></iframe>
+            </div>
+            <div class="ringht">
+                <h1>Phim Đề Cử</h1>
+                <div class="lolomorow" id="loloMovie">
                 </div>
             </div>
         </div>
-        <div class="lolomorow padding" id="loloMovie">
-        </div>
+
     </main>
     <footer class="footer">
         <table>

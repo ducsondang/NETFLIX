@@ -1,0 +1,77 @@
+@media screen and (max-width: 500px) {
+    body {
+        background-color: beige;
+    }
+}
+
+#cars {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+select {
+    display: block;
+}
+
+.search {
+    display: none;
+}
+
+.display_none {
+    display: block;
+}
+
+.conten>p {
+    display: none;
+}
+
+.button>input {
+    margin-top: 20px;
+
+}
+
+.backgroud {
+    height: 20rem;
+}
+
+.rowContainer {
+    margin: 10px 0 10px;
+    padding: 5px 5px;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    z-index: 999;
+}
+
+button {
+    color: white;
+    font-size: 30px;
+    background-color: #141414;
+    border: none;
+
+}
+
+/* footer */
+footer {
+    color: grey;
+    margin: 20px auto 0;
+    max-width: 100%;
+    padding: 0 4%;
+}
+
+table {
+    border-spacing: 30px 10px;
+    text-align: left;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
