@@ -5,7 +5,7 @@ function loadProduct() {
         for(let b of product)
         h += `<li><a href="#">${b.name}</a></li>`;
 
-        let d=document.getElementById("menu flex ");
+        let d=document.getElementById("menu");
          d.innerHTML += h;
     })
 }
