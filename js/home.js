@@ -7,12 +7,14 @@ function loadMovie(cate) {
             <a class="rowContainer" href="#">
                 <img src="./img/${c.image}.jpg" alt="uoc gi duoc nay">
                 <div class="itembot">
+                    <div class="rowConten"><p class="name-movie">${c.name}</p>
+                    <p>${c.description}</p>
+                    </div>
                     <div class="rowButton">
                         <button><i class='bx bx-play-circle'></i></button>
                         <button><i class='bx bx-like'></i></button>
                         <button><i class='bx bx-chevron-down-circle'></i></button>
                     </div>
-                    <div class="rowConten">${c.name}</div>
                 </div>
             </a>`;
             }

@@ -1,0 +1,26 @@
+@media screen and (max-width: 500px) {
+    body {
+        background-color: beige;
+    }
+}
+
+.rowContainer {
+    margin: 10px 0 10px;
+    padding: 5px 5px;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 100%;
+}
+
+.flex-none {
+    display: block;
+}
+
+.ringht {
+    width: 100%;
+}
+
+.left {
+    width: 100%;
+    height: auto;
+}

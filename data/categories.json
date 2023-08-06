@@ -1,18 +1,18 @@
 [
     {
         "id": 1,
-        "name": "phim tinh cam"
+        "name": "Phim tình cảm"
     },
     {
         "id": 2,
-        "name": "phim 16+"
+        "name": "Phim 16+"
     },
     {
         "id": 3,
-        "name": "san xuat tai han quoc"
+        "name": "Sản xuất tại Hàn quốc"
     },
     {
         "id": 4,
-        "name": "co giai dac biet"
+        "name": "Có giải đặc biệt"
     }
 ]

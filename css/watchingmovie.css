@@ -1,0 +1,24 @@
+main {
+    margin-top: 20px;
+}
+
+.left {
+    width: 70%;
+    margin: 5px;
+}
+
+.ringht {
+    width: 30%;
+    margin: 5px;
+}
+
+.movie {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+.rowContainer {
+    width: 50%;
+    height: 130px;
+}
