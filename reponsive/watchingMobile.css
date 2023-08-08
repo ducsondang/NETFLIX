@@ -24,3 +24,14 @@
     width: 100%;
     height: auto;
 }
+
+.padding {
+    padding: 0px 15px;
+}
+
+a:hover .itembot {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    z-index: 99;
+}

@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./css/cssHome.css">
     <link rel="stylesheet" href="./reponsive/mobile.css" media="screen and (max-width: 500px)">
     <link rel="shortcut icon" href="./icons/netflix-logo.svg">
-    <script src="js/home.js"></script>
 </head>
 
 <body class="container">
@@ -50,7 +49,7 @@
             <option value="audi">Tình cảm</option>
         </select>
     </nav>
-    <main class="main">
+    <main class="main" id="main">
         <div class="backgroud">
             <div class="model">
                 <div class="conten">
@@ -65,7 +64,8 @@
                 </div>
             </div>
         </div>
-        <div class="lolomorow padding" id="loloMovie">
+        <div class="movies" id="movies">
+            <!-- js create -->
         </div>
     </main>
     <footer class="footer">
@@ -104,5 +104,6 @@
         <div class="member-footer-copyright"><span>© 1997-2023 Netflix, Inc.‎</span></div>
     </footer>
 </body>
+<script src="js/home.js"></script>
 
 </html>

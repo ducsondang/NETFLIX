@@ -12,7 +12,6 @@ function loadUser() {
         // Cách 1
         // let d = document.getElementById("menu");
         // d.innerHTML += h;
-
         // Cách 2
         // let d = document.querySelector("#menu :first-child");
         // d.insertAdjacentHTML("afterend", h);

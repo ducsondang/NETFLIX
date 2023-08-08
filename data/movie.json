@@ -4,139 +4,159 @@
         "name": "Uớc gì được nấy",
         "category": 3,
         "description": "Trong một đêm, cuộc đời đã xoay chuyển 180 độ!",
-        "image": "item1"
+        "image": "item1",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 2,
         "name": "Bỗng dưng trúng số",
         "category": 2,
         "description": " ",
-        "image": "bongdungtrungso"
+        "image": "bongdungtrungso",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 3,
         "name": "Chuyến tàu sinh tử",
         "category": 1,
         "description": " ",
-        "image": "chuyentausinhtu"
+        "image": "chuyentausinhtu",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 4,
         "name": "Đại dịch cúm",
-        "category": 3,
+        "category": 4,
         "description": " ",
-        "image": "daidichcum"
+        "image": "daidichcum",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 5,
         "name": "Kẻ lập dị",
-        "category": 2,
+        "category": 1,
         "description": " ",
-        "image": "kelapdi"
+        "image": "kelapdi",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 6,
         "name": "Khi ta hai lăm",
-        "category": 1,
+        "category": 2,
         "description": " ",
-        "image": "khitahailam"
+        "image": "khitahailam",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 7,
         "name": "Kim cương máu",
         "category": 3,
         "description": " ",
-        "image": "kimcuongmau"
+        "image": "kimcuongmau",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 8,
         "name": "Ông bà Smit",
-        "category": 2,
+        "category": 4,
         "description": " ",
-        "image": "ongbasmit"
+        "image": "ongbasmit",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 9,
         "name": "Tôi còn sống",
         "category": 1,
         "description": " ",
-        "image": "toiconsong"
+        "image": "toiconsong",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 10,
         "name": "Siêu lừa gặp siêu lầy",
-        "category": 1,
+        "category": 2,
         "description": " ",
-        "image": "sieuluagapsieulay"
+        "image": "sieuluagapsieulay",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 11,
         "name": "Trùm cớm và ác quỷ",
-        "category": 1,
+        "category": 3,
         "description": " ",
-        "image": "trumcomvaacquy"
+        "image": "trumcomvaacquy",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 12,
         "name": "Cuộc chiếm ngầm",
-        "category": 1,
+        "category": 4,
         "description": " ",
-        "image": "cuocchienngam"
+        "image": "cuocchienngam",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 13,
         "name": "Đội quân siêu trộm",
         "category": 1,
         "description": " ",
-        "image": "doiquansieutrom"
+        "image": "doiquansieutrom",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 14,
         "name": "Hãy bắt tôi nếu có thể",
-        "category": 1,
+        "category": 2,
         "description": " ",
-        "image": "haybattoineucothe"
+        "image": "haybattoineucothe",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 15,
         "name": "Kế hoạch bắt cóc",
-        "category": 1,
+        "category": 3,
         "description": " ",
-        "image": "kehoachbatcoc"
+        "image": "kehoachbatcoc",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 16,
         "name": "Lừa để gặp lừa đảo",
-        "category": 1,
+        "category": 4,
         "description": " ",
-        "image": "luadeugapluadao"
+        "image": "luadeugapluadao",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 17,
         "name": "Lồng chim",
         "category": 1,
         "description": " ",
-        "image": "longchim"
+        "image": "longchim",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 18,
         "name": "Nhiệm vụ giải cứu",
-        "category": 1,
+        "category": 2,
         "description": " ",
-        "image": "nhiemvugiaicuu"
+        "image": "nhiemvugiaicuu",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 19,
         "name": "Nhiệm vụ bất khả thi",
-        "category": 1,
+        "category": 3,
         "description": " ",
-        "image": "nhiemvubatkhathi"
+        "image": "nhiemvubatkhathi",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     },
     {
         "id": 20,
         "name": "Chàng vợ cuả em",
-        "category": 1,
+        "category": 4,
         "description": " ",
-        "image": "changvocuaem"
+        "image": "changvocuaem",
+        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
     }
 ]
