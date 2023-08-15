@@ -88,3 +88,13 @@ window.onload = function () {
     loadCates();
     main();
 }
+const toTop = document.querySelector(".toTop")
+function backToTop(){
+    toTop.addEventListener("click",function(){
+        window.scrollTo({
+            top:0,
+            behavior:"smooth",
+        })
+    })
+}
+backToTop();

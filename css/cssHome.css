@@ -254,3 +254,25 @@ label {
 .conten>p {
     margin-top: 20px;
 }
+#back_to_top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 50px;
+    color: #fff;
+    z-index: 999;
+    background-color: #0a5e98;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: backround-color, color;
+}
+#back_to_top:hover,
+#back_to_top:focus {
+    background-color: #71afd5;
+    color: white;
+}
