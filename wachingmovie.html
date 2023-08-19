@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="./icons/netflix-logo.svg">
     <link rel="stylesheet" href="./css/cssHome.css">
     <link rel="stylesheet" href="./css/watchingmovie.css">
@@ -16,22 +17,28 @@
 <body class="container">
     <header class="flex space padding" id="header">
         <div class="flex">
-            <div><img src="./icons/netflix.svg" alt="logo" class="logo" onclick="dieu_huong('./home.html')" /></div>
-        </div>
-        <div>
-            <ul class="menu flex">
-                <li><a href="#">Phim T.Hình</a></li>
-                <li><a href="#">Phim Mới</a></li>
-                <li><a href="#">Phim Phổ Biến</a></li>
-                <li><a href="#">Top Trending</a></li>
-            </ul>
+            <div class="logoNetflix">
+                <div><img src="./icons/netflix.svg" alt="logo" class="logo" onclick="dieu_huong('./home.html')" /></div>
+            </div>
+            <div>
+                <ul class="menu flex" id="menu">
+                    <li><a href="./home.html">Trang chủ</a></li>
+                    <li><a href="#">Phim T.Hình</a></li>
+                    <li><a href="#">Phim Mới</a></li>
+                    <li><a href="#">Phim Phổ Biến</a></li>
+                    <li><a href="#">Top Trending</a></li>
+                </ul>
+            </div>
         </div>
         <div class="flex">
-            <div class="flex search">
-                <span class="">
-                    <img src="./icons/search.png" alt="">
-                </span>
-                <input class="" type="text" placeholder="Phim, Thể loại, Diễn Viên,..." />
+            <div class="flex position">
+                <div class="flex search" id="iconSearch">
+                    <span class="">
+                        <img src="./icons/search.png" alt="">
+                    </span>
+                    <input id="kw" type="text" placeholder="Phim, Thể loại, Diễn Viên,..." />
+                </div>
+                <input id="btSeacrh" type="button" onclick="searchMovie()" value="Tìm" />
             </div>
         </div>
     </header>
@@ -62,28 +69,26 @@
                 </th>
             </tr>
             <tr>
-                <td><a href="#"></a> Mô tả âm thanh</td>
-                <td><a href="#"></a>Trung tâm trợ giúp</td>
-                <td><a href="#"></a>Thẻ quà tặng</td>
-                <td><a href="#"></a>Trung tâm đa phương tiện</td>
+                <td><a href="#">Mô tả âm thanh</a></td>
+                <td><a href="#">Trung tâm trợ giúp</a></td>
+                <td><a href="#">Thẻ quà tặng</a></td>
+                <td><a href="#">Trung tâm đa phương tiện</a></td>
 
             </tr>
             <tr>
-                <td><a href="#"></a>Quan hệ với nhà đầu tư</td>
-                <td><a href="#"></a>Việc làm</td>
-                <td><a href="#"></a>Diều khoản sử dụng</td>
-                <td><a href="#"></a>Quyền riêng tư</td>
+                <td><a href="#">Quan hệ với nhà đầu tư</a></td>
+                <td><a href="#">Việc làm</a></td>
+                <td><a href="#">Diều khoản sử dụng</a></td>
+                <td><a href="#">Quyền riêng tư</a></td>
             </tr>
             <tr>
-                <td><a href="#"></a>Thông báo pháp lý</td>
-                <td><a href="#"></a>Tùy chọn cookie</td>
-                <td><a href="#"></a>Thông tin doanh nghiệp</td>
-                <td><a href="#"></a>Liên hệ với chúng tôi</td>
-            </tr>
-            <tr>
-                <th colspan="4"><a href=""></a>Mã dịch vụ</th>
+                <td><a href="#">Thông báo pháp lý</a></td>
+                <td><a href="#">Tùy chọn cookie</a></td>
+                <td><a href="#">Thông tin doanh nghiệp</a></td>
+                <td><a href="#">Liên hệ với chúng tôi</a></td>
             </tr>
         </table>
+        <div class="madichvu"><a href="">Mã dịch vụ</a></div>
         <div class="member-footer-copyright"><span>© 1997-2023 Netflix, Inc.‎</span></div>
     </footer>
 </body>

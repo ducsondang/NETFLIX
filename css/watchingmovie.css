@@ -1,5 +1,9 @@
 main {
-    margin-top: 20px;
+    padding-top: 80px !important;
+}
+
+.flex-none {
+    align-items: flex-start;
 }
 
 .left {

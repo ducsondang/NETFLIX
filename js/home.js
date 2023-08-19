@@ -111,7 +111,7 @@ function render(idDiv, h) {
 
 //lấy dữ liệu category
 //tìm kiếm phim
-function searchMovie() {
+function movieSearch() {
     let k = document.getElementById("kw")
     if (k != null) {
         k = k.value;
@@ -125,7 +125,7 @@ function searchMovie() {
 //render phim tìm kiếm
 function renderMovieSearch(name) {
     for (c of phim) {
-        document.getElementById("nav").style.display = "none";
+        document.getElementById("movie-search").style.paddingTop = "200px"
         document.getElementById("backgroud").style.display = "none";
         document.getElementById("movies").style.display = "none";
         document.getElementById("movie-search").style.display = "block";
@@ -148,6 +148,41 @@ function renderMovieSearch(name) {
         }
     }
 }
+
+//hiden from search
+window.addEventListener('click', function (e) {
+    let h = this.document.getElementById("iconSearch");
+    let button = this.document.getElementById("btSeacrh");
+    if (document.getElementById('iconSearch').contains(e.target)) {
+        h.style.backgroundColor = "rgba(0, 0, 0, 0.5)"
+        h.style.width = "250px"
+        h.style.border = "1px white solid"
+        setTimeout(function () {
+            document.getElementById("kw").style.display = "inline-block"
+        }, 500);
+        button.style.display = "inline-block"
+    } else {
+        h.style.backgroundColor = "rgba(0, 0, 0, 0.0)"
+        h.style.border = "none"
+        h.style.width = "30px"
+        button.style.display = "none"
+        document.getElementById("kw").style.display = "none"
+    }
+});
+// scoll
+var position = document.getElementById('header');
+window.addEventListener("scroll", function (event) {
+
+    var scroll_y = this.scrollY;
+    // console.log(scroll_x, scroll_y);
+    if (scroll_y > 30) {
+        position.classList.remove("discolorationNone");
+        position.classList.add('discoloration');
+    } if (scroll_y <= 30) {
+        position.classList.remove('discoloration');
+        position.classList.add("discolorationNone");
+    }
+});
 // cover chuoi
 function removeVietnameseTones(str) {
     str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
