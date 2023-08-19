@@ -22,3 +22,31 @@ main {
     width: 50%;
     height: 130px;
 }
+
+.watch-acti {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    padding: 10px;
+    color: #cccccc;
+    /* height: 80px; */
+}
+
+.watch-acti-top {
+    height: 60px;
+    border-bottom: 2px solid #747474;
+}
+
+.watch-acti-boottom {
+    padding-top: 10px;
+    display: none;
+}
+
+.bt-watch-acti {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #747474;
+    font-size: 20px;
+}
+
+.bt-watch-acti:hover {
+    color: #cccccc;
+}

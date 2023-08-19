@@ -57,20 +57,25 @@ header {
     background-color: rgba(0, 0, 0, 0.0);
 }
 
-header>div:last-child {
+.search {
     background-color: rgba(0, 0, 0, 0.0);
     border: 1px white solid;
     padding: 5px 20px 0;
 }
 
-header>div>input {
+header>div>div>div>input {
     background-color: rgba(0, 0, 0, 0.0);
     border: none;
     color: white;
     outline: none;
 }
 
-header>div>span>img {
+#btSeacrh {
+    color: grey;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+header>div>div>div>span>img {
     height: 20px;
 }
 
@@ -80,6 +85,10 @@ header>div>span>img {
 
 ::placeholder {
     color: grey;
+}
+
+.rowConten {
+    margin: 0 auto;
 }
 
 /* main */
@@ -152,6 +161,7 @@ button {
     background-color: #141414;
     border-radius: 5px;
     width: 98%;
+    text-align: center;
 }
 
 a:hover .itembot {
@@ -197,6 +207,21 @@ table>tbody>tr>td {
 .danhSach {
     display: none;
 }
+
+.imgUser>img {
+    width: 30px;
+    border-radius: 10px;
+}
+
+.imgUser {
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.imgUser:hover {
+    border: 1px solid white;
+}
+
 
 nav {
     position: absolute;
@@ -253,4 +278,8 @@ label {
 
 .conten>p {
     margin-top: 20px;
+}
+
+.movie-search {
+    display: none;
 }

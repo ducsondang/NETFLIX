@@ -5,7 +5,7 @@
         "category": 3,
         "description": "Trong một đêm, cuộc đời đã xoay chuyển 180 độ!",
         "image": "item1",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=0gh9DHwBDlE'"
     },
     {
         "id": 2,
@@ -13,15 +13,15 @@
         "category": 2,
         "description": " ",
         "image": "bongdungtrungso",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=D3KbO3QF-lg'"
     },
     {
         "id": 3,
         "name": "Chuyến tàu sinh tử",
         "category": 1,
-        "description": " ",
+        "description": "Ông bố đơn thân Seok-woo (Gong Yoo đóng) đưa con gái từ Seoul đến Busan trên chuyến tàucao tốc KTX. Vừa lên tàu, zombie đã xông vào nhà ga, virus zombie trên người một cô gái đitrên tàu bắt đầu hoành hành và không ngừng lây lan, khiến chuyến tàu ngay lập tức trở thànhthảm họa. Trên tuyến tàu cao tốc 442 km từ Seoul đến Busan, liệu người cha Seok-woo có thể vượt qua vòng vây và khó khăn để bảo vệ con gái yêu của mình đến nơi an toàn không?",
         "image": "chuyentausinhtu",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=RQpGmPwABds'"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "category": 4,
         "description": " ",
         "image": "daidichcum",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=IVIoFJyWWjA'"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "category": 1,
         "description": " ",
         "image": "kelapdi",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=YrOovhBcOck'"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "category": 2,
         "description": " ",
         "image": "khitahailam",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=KjV0gDd9XEQ'"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "category": 3,
         "description": " ",
         "image": "kimcuongmau",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=kSwKAr-qVyk'"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "category": 4,
         "description": " ",
         "image": "ongbasmit",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=gU1V0txvpx4'"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "category": 1,
         "description": " ",
         "image": "toiconsong",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=aeqI98gS4VQ'"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "category": 2,
         "description": " ",
         "image": "sieuluagapsieulay",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=ecNMIlP7wIs'"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "category": 3,
         "description": " ",
         "image": "trumcomvaacquy",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=_7n0OjlElC4'"
     },
     {
         "id": 12,
@@ -93,7 +93,7 @@
         "category": 4,
         "description": " ",
         "image": "cuocchienngam",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=tY-vMKk7Ngc'"
     },
     {
         "id": 13,
@@ -101,7 +101,7 @@
         "category": 1,
         "description": " ",
         "image": "doiquansieutrom",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=AdOp6Is1PfU'"
     },
     {
         "id": 14,
@@ -109,7 +109,7 @@
         "category": 2,
         "description": " ",
         "image": "haybattoineucothe",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=gQwZ-QFiAXg'"
     },
     {
         "id": 15,
@@ -121,11 +121,11 @@
     },
     {
         "id": 16,
-        "name": "Lừa để gặp lừa đảo",
+        "name": "Lừa đểu gặp lừa đảo",
         "category": 4,
         "description": " ",
         "image": "luadeugapluadao",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=3TI0M4wnVSg'"
     },
     {
         "id": 17,
@@ -133,7 +133,7 @@
         "category": 1,
         "description": " ",
         "image": "longchim",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=Q2M3A8_PxDg'"
     },
     {
         "id": 18,
@@ -141,7 +141,7 @@
         "category": 2,
         "description": " ",
         "image": "nhiemvugiaicuu",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=sowSESNw5e0'"
     },
     {
         "id": 19,
@@ -149,14 +149,14 @@
         "category": 3,
         "description": " ",
         "image": "nhiemvubatkhathi",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/watch?v=TVEIIUXUC6E'"
     },
     {
         "id": 20,
         "name": "Chàng vợ cuả em",
         "category": 4,
         "description": " ",
-        "image": "changvocuaem",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "image": "test",
+        "url": "'https://www.youtube.com/watch?v=Or3SqGR_Qg4&output=embed'"
     }
 ]

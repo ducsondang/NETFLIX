@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="./css/watchingmovie.css">
     <link rel="stylesheet" href="./reponsive/mobile.css" media="screen and (max-width: 500px)">
     <link rel="stylesheet" href="./reponsive/watchingMobile.css" media="screen and (max-width: 500px)">
-    <script src="js/home.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body class="container">
-    <header class="flex space padding">
+    <header class="flex space padding" id="header">
         <div class="flex">
-            <div><img src="./icons/netflix.svg" alt="logo" class="logo" /></div>
+            <div><img src="./icons/netflix.svg" alt="logo" class="logo" onclick="dieu_huong('./home.html')" /></div>
         </div>
         <div>
             <ul class="menu flex">
@@ -26,28 +26,23 @@
                 <li><a href="#">Top Trending</a></li>
             </ul>
         </div>
-        <div class="danhSach">
-            <select name="cars" id="cars">
-                <option value="volvo">Phim T.Hình</option>
-                <option value="saab">Phim Mới</option>
-                <option value="mercedes">Phim Phổ Biến</option>
-                <option value="audi">Top Trending</option>
-            </select>
-        </div>
         <div class="flex">
-            <span class="">
-                <img src="./icons/search.png" alt="">
-            </span>
-            <input class="search" type="text" placeholder="Phim, Thể loại, Diễn Viên,..." />
+            <div class="flex search">
+                <span class="">
+                    <img src="./icons/search.png" alt="">
+                </span>
+                <input class="" type="text" placeholder="Phim, Thể loại, Diễn Viên,..." />
+            </div>
         </div>
     </header>
     <main class="padding">
         <div class="flex flex-none">
-            <div class="left" id="left">
-                <div class="nameMovie">
-                    <h1>ke lap di</h1>
+            <div class="left">
+                <div id="left">
+                    <!-- js creat -->
                 </div>
             </div>
+
             <div class="ringht">
                 <h1>Phim Đề Cử</h1>
                 <div class="lolomorow" id="movies">
@@ -92,5 +87,7 @@
         <div class="member-footer-copyright"><span>© 1997-2023 Netflix, Inc.‎</span></div>
     </footer>
 </body>
+<script src="js/home.js" defer></script>
+<script src="js/watching.js" defer></script>
 
 </html>

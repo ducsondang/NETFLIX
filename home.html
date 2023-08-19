@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="./css/cssHome.css">
     <link rel="stylesheet" href="./reponsive/mobile.css" media="screen and (max-width: 500px)">
     <link rel="shortcut icon" href="./icons/netflix-logo.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body class="container">
-    <header class="flex space padding">
+    <header class="flex space padding" id="header">
         <div class="flex">
-            <div><img src="./icons/netflix.svg" alt="logo" class="logo" /></div>
+            <div><img src="./icons/netflix.svg" alt="logo" class="logo" onclick="dieu_huong('./home.html')" /></div>
         </div>
         <div>
             <ul class="menu flex">
@@ -25,22 +26,19 @@
                 <li><a href="#">Top Trending</a></li>
             </ul>
         </div>
-        <div class="danhSach">
-            <select name="cars" id="cars">
-                <option value="volvo">Phim T.Hình</option>
-                <option value="saab">Phim Mới</option>
-                <option value="mercedes">Phim Phổ Biến</option>
-                <option value="audi">Top Trending</option>
-            </select>
-        </div>
         <div class="flex">
-            <span class="">
-                <img src="./icons/search.png" alt="">
-            </span>
-            <input class="search" type="text" placeholder="Phim, Thể loại, Diễn Viên,..." />
+            <div class="flex">
+                <div class="flex search">
+                    <span class="">
+                        <img src="./icons/search.png" alt="">
+                    </span>
+                    <input id="kw" type="text" placeholder="Phim, Thể loại, Diễn Viên,..." />
+                </div>
+                <input id="btSeacrh" type="button" onclick="searchMovie()" value="Tim" />
+            </div>
         </div>
     </header>
-    <nav class="nav padding">
+    <nav class="nav padding" id="nav">
         <label for="cars">Phim</label>
         <select name="cars" id="cars">
             <option value="volvo">Phim 16+</option>
@@ -50,10 +48,10 @@
         </select>
     </nav>
     <main class="main" id="main">
-        <div class="backgroud">
+        <div class="backgroud" id="backgroud">
             <div class="model">
                 <div class="conten">
-                    <h1>Tóp 6 Phim hành động tháng</h1>
+                    <h1>Top 6 Phim hành động tháng</h1>
                     <p>Một sát thủ bị đầu độc biết rằng anh ta có thể thoát đượcchết nếu tiếp tục kích thích tim khi
                         chạy
                         đua với tử thần</p>
@@ -66,6 +64,15 @@
         </div>
         <div class="movies" id="movies">
             <!-- js create -->
+        </div>
+        <div class="movies">
+            <div class="lolomorow padding movie-search" id="movie-search">
+                <div class="rowHeader">
+                    <h2>Phim bạn cần tìm.</h2>
+                </div>
+                <div class="flex rowMovie" id="rowMovie-search">
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer">
@@ -104,6 +111,6 @@
         <div class="member-footer-copyright"><span>© 1997-2023 Netflix, Inc.‎</span></div>
     </footer>
 </body>
-<script src="js/home.js"></script>
+<script src="js/home.js" defer></script>
 
 </html>

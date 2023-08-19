@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    height: 100vh;
+}
+
 @font-face {
     font-family: myfont;
     src: url(../fonts/NetflixSans-Regular.otf);
@@ -15,13 +20,19 @@
     font-family: myfont;
     padding: auto;
     margin: auto;
+    align-items: center;
+}
+
+.div {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .users>a {
     text-decoration: none;
 }
 
-.index>a {
+.index .manageProfile {
     text-decoration: none;
     color: gray;
     border: 1px solid;
@@ -63,7 +74,7 @@
 .conten {
     color: white;
     font-size: 4rem;
-    margin-top: 15rem;
+    /* margin-top: 15rem; */
     margin-bottom: 2rem;
 }
 
@@ -73,7 +84,7 @@
     border-radius: 5px;
 }
 
-.index>a:hover {
+.index .manageProfile:hover {
     border: 1px white solid;
     color: white;
 }
