@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-html,
-body {
     @keyframes box {
         0% {
             background-color: white;
@@ -17,17 +15,17 @@ body {
         }
 
         100% {
-            background-color: #ffc0d9;
+            background-color:DarkGray;
 
-        }
+        } 
     }
-}
 
 html,
 body {
     width: 100%;
 
 }
+
 
 .imagelogin {
     width: 100vw;
@@ -96,7 +94,7 @@ body {
 }
 
 .box input[type="button"]:hover {
-    background: #6b606183;
+    background: brown;
     transition: 1s;
     cursor: pointer;
 }
