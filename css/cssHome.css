@@ -210,9 +210,62 @@ header>div>div>div>span>img {
     margin-top: 30px;
 }
 
+.rowHeader>h2 {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.rowHeader>h2>i {
+    cursor: pointer;
+    color: #0a5e98;
+    font-size: 1.2rem;
+}
+
+.viewAll {
+    font-weight: 100;
+    font-size: 1rem;
+    /* display: none; */
+    color: rgba(0, 0, 0, 0.0);
+    display: flex;
+    /* align-items: center; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: left 1s;
+    transition: color 1s;
+    cursor: pointer;
+}
+
+.rowHeader:hover i {
+    /* left: 10rem; */
+    color: #0a5e98;
+    display: inline;
+}
+
+.rowHeader>h2:hover {
+    color: gray;
+}
+
+.viewAll:hover {
+    left: 10rem;
+    color: #0a5e98;
+}
+
 .rowHeader {
     color: white;
-    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.rowHeader>i {
+    color: #0a5e98;
+    font-size: 2.5rem;
+    display: none;
+    font-weight: 100;
 }
 
 button {
@@ -272,7 +325,7 @@ button {
 
 
 .rowContainer {
-    margin: 10px 0 10px;
+    margin: 0 0 10px;
     padding: 5px 3px;
     flex-wrap: wrap;
     height: auto;
@@ -464,7 +517,6 @@ label {
 
 .movie-search {
     display: none;
-
 }
 
 #back_to_top {

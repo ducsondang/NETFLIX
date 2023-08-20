@@ -40,8 +40,8 @@ function loadCates() {
         let h = "";
         for (let p of data) {
             h += `<div class="lolomorow padding" id="loloMovie-${p.id}">
-                <div class="rowHeader">
-                <h2>${p.name}</h2>
+                <div class="rowHeader" title="Xem tất cả">
+                <h2>${p.name}</h2><i class='bx bx-chevron-right'></i>
             </div>
             <div class="flex rowMovie" id="rowMovie-${p.id}">
             </div></div>`;
