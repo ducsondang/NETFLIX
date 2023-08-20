@@ -527,7 +527,7 @@ label {
     height: 50px;
     color: #fff;
     z-index: 999;
-    background-color: #0a5e98;
+    background-color: brown;
     border: none;
     cursor: pointer;
     border-radius: 50%;
@@ -539,7 +539,7 @@ label {
 
 #back_to_top:hover,
 #back_to_top:focus {
-    background-color: #71afd5;
+    background-color: #a53a2ad2;
     color: white;
 
 }

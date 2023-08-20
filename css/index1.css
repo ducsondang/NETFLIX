@@ -1,3 +1,18 @@
+@keyframes box{
+    0% {
+        background-color: white;
+    }
+    50%{
+       
+        background-color:black;
+    
+    }
+    100%{
+        background-color:#ffc0d9;
+        
+    }
+}
+
 html, body{
     width: 100%;
    
@@ -22,6 +37,7 @@ html, body{
     left: 50%; top:50%;
     transform: translate(-50%,-50%);
     box-shadow: 0px 0px 20px 0px #fff;
+    animation: box 3s infinite;
     
 }
 .box h1{
