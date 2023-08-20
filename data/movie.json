@@ -5,7 +5,7 @@
         "category": 3,
         "description": "Trong một đêm, cuộc đời đã xoay chuyển 180 độ!",
         "image": "item1",
-        "url": "'https://www.youtube.com/watch?v=0gh9DHwBDlE'"
+        "url": "'https://www.youtube.com/embed/qO0fJnc-4Qw'"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "category": 2,
         "description": " ",
         "image": "bongdungtrungso",
-        "url": "'https://www.youtube.com/watch?v=D3KbO3QF-lg'"
+        "url": "'https://www.youtube.com/embed/93zyix3ilWQ'"
     },
     {
         "id": 3,
@@ -29,7 +29,7 @@
         "category": 4,
         "description": " ",
         "image": "daidichcum",
-        "url": "'https://www.youtube.com/watch?v=IVIoFJyWWjA'"
+        "url": "'https://www.youtube.com/embed/DUz1pZjsElw'"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "category": 1,
         "description": " ",
         "image": "kelapdi",
-        "url": "'https://www.youtube.com/watch?v=YrOovhBcOck'"
+        "url": "'https://www.youtube.com/embed/YrOovhBcOck'"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "category": 2,
         "description": " ",
         "image": "khitahailam",
-        "url": "'https://www.youtube.com/watch?v=KjV0gDd9XEQ'"
+        "url": "'https://www.youtube.com/embed/EYHLPsh-wEw'"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "category": 3,
         "description": " ",
         "image": "kimcuongmau",
-        "url": "'https://www.youtube.com/watch?v=kSwKAr-qVyk'"
+        "url": "'https://www.youtube.com/embed/eDsrUYd2VbE'"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "category": 4,
         "description": " ",
         "image": "ongbasmit",
-        "url": "'https://www.youtube.com/watch?v=gU1V0txvpx4'"
+        "url": "'https://www.youtube.com/embed/CZ0B22z22pI'"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "category": 1,
         "description": " ",
         "image": "toiconsong",
-        "url": "'https://www.youtube.com/watch?v=aeqI98gS4VQ'"
+        "url": "'https://www.youtube.com/embed/P5j_WVnj-p4'"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "category": 2,
         "description": " ",
         "image": "sieuluagapsieulay",
-        "url": "'https://www.youtube.com/watch?v=ecNMIlP7wIs'"
+        "url": "'https://www.youtube.com/embed/vT5hhe2YBJs'"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "category": 3,
         "description": " ",
         "image": "trumcomvaacquy",
-        "url": "'https://www.youtube.com/watch?v=_7n0OjlElC4'"
+        "url": "'https://www.youtube.com/embed/Nn3dGGRkObo'"
     },
     {
         "id": 12,
@@ -93,7 +93,7 @@
         "category": 4,
         "description": " ",
         "image": "cuocchienngam",
-        "url": "'https://www.youtube.com/watch?v=tY-vMKk7Ngc'"
+        "url": "'https://www.youtube.com/embed/R7Gg-QH_HKU'"
     },
     {
         "id": 13,
@@ -101,7 +101,7 @@
         "category": 1,
         "description": " ",
         "image": "doiquansieutrom",
-        "url": "'https://www.youtube.com/watch?v=AdOp6Is1PfU'"
+        "url": "'https://www.youtube.com/embed/7w6nVUZjMYE'"
     },
     {
         "id": 14,
@@ -109,7 +109,7 @@
         "category": 2,
         "description": " ",
         "image": "haybattoineucothe",
-        "url": "'https://www.youtube.com/watch?v=gQwZ-QFiAXg'"
+        "url": "'https://www.youtube.com/embed/lN6Irv9tnYI'"
     },
     {
         "id": 15,
@@ -117,7 +117,7 @@
         "category": 3,
         "description": " ",
         "image": "kehoachbatcoc",
-        "url": "'https://youtube.com/embed/ue80QwXMRHg?'"
+        "url": "'https://www.youtube.com/embed/y0h2yB42P5w'"
     },
     {
         "id": 16,
@@ -125,7 +125,7 @@
         "category": 4,
         "description": " ",
         "image": "luadeugapluadao",
-        "url": "'https://www.youtube.com/watch?v=3TI0M4wnVSg'"
+        "url": "'https://www.youtube.com/embed/3TI0M4wnVSg'"
     },
     {
         "id": 17,
@@ -133,7 +133,7 @@
         "category": 1,
         "description": " ",
         "image": "longchim",
-        "url": "'https://www.youtube.com/watch?v=Q2M3A8_PxDg'"
+        "url": "'https://www.youtube.com/embed/Q2M3A8_PxDg'"
     },
     {
         "id": 18,
@@ -141,7 +141,7 @@
         "category": 2,
         "description": " ",
         "image": "nhiemvugiaicuu",
-        "url": "'https://www.youtube.com/watch?v=sowSESNw5e0'"
+        "url": "'https://www.youtube.com/embed/sowSESNw5e0'"
     },
     {
         "id": 19,
@@ -149,7 +149,7 @@
         "category": 3,
         "description": " ",
         "image": "nhiemvubatkhathi",
-        "url": "'https://www.youtube.com/watch?v=TVEIIUXUC6E'"
+        "url": "'https://www.youtube.com/embed/LHqjCiMJlfo'"
     },
     {
         "id": 20,
@@ -157,6 +157,6 @@
         "category": 4,
         "description": " ",
         "image": "changvocuaem",
-        "url": "'https://www.youtube.com/watch?v=Or3SqGR_Qg4&output=embed'"
+        "url": "'https://www.youtube.com/embed/Or3SqGR_Qg4'"
     }
 ]
