@@ -51,22 +51,29 @@
         </select>
     </nav> -->
     <main class="main" id="main">
-        <div class="backgroud" id="backgroud">
-            <div class="model">
+        <section id="hero">
+            <video id="heroVideoBg" autoplay loop muted>
+                <source type="video/mp4" src="./video/movieBackgroud.mp4">
+            </video>
+            <img id="heroImgBg" src="./img/backgroudMovie.jpg" alt="storm">
+            <div id="heroContent">
                 <div class="conten">
-                    <h1>Top 6 Phim hành động tháng</h1>
-                    <p>Một sát thủ bị đầu độc biết rằng anh ta có thể thoát đượcchết nếu tiếp tục kích thích tim khi
-                        chạy
-                        đua với tử thần</p>
+                    <h1>Top 6 Phim Hay Nhất Tháng</h1>
+                    <p>Một câu chuyện tình đầy hài hước xoay quanh cô nhân viên ngân hàng Ina. Sau khi bị Petch – người
+                        bạn trai cũ của mình bỏ trốn và để lại cho mình một món nợ, Ina lại gặp đen đủi một lần nữa khi
+                        tiếp tục bị lừa bởi một chuyên gia lừa đảo khác tên là Tower, nhưng may mắn thay lần này Ina đã
+                        phát hiện kịp thời. Tuy nhiên thay vì... </p>
                 </div>
-                <div class="button flex">
-                    <ul class="flex">
-                        <li><i class='bx bx-play'><span>Phát</span></i></li>
-                        <li><i class='bx bx-info-circle'><span>Thông tin</span></i></li>
+                <div class="button">
+                    <ul class="flex" style="list-style: none;">
+                        <li class="btBackgrooudPlay"><i style="color: black;" class='bx bx-play'></i>Play</li>
+                        <li class="btBackgrooudInfo"><i class='bx bx-info-circle'></i>Thông tin khác</li>
+                        <li class="btBackgrooudInfo"><i class='bx bx-volume-mute' id="volume"
+                                onclick="volumeControl()"></i></li>
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="movies" id="movies">
             <!-- js create -->
         </div>

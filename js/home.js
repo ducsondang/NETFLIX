@@ -126,7 +126,7 @@ function movieSearch() {
 function renderMovieSearch(name) {
     for (c of phim) {
         document.getElementById("movie-search").style.paddingTop = "200px"
-        document.getElementById("backgroud").style.display = "none";
+        document.getElementById("hero").style.display = "none";
         document.getElementById("movies").style.display = "none";
         document.getElementById("movie-search").style.display = "block";
         if (c.name == name) {
@@ -146,6 +146,22 @@ function renderMovieSearch(name) {
         </a>`
             document.getElementById("rowMovie-search").innerHTML = h;
         }
+    }
+}
+//tắt mở volume
+var checkVolum = true;
+function volumeControl() {
+    if (checkVolum == true) {
+        document.getElementById("volume").classList.remove("bx-volume-mute");
+        document.getElementById("volume").classList.add("bx-volume-full");
+        checkVolum = false;
+        document.getElementById("heroVideoBg").muted = "";
+    } else {
+        document.getElementById("heroVideoBg").muted = "muted";
+        document.getElementById("volume").classList.add("bx-volume-mute");
+        document.getElementById("volume").classList.remove("bx-volume-full");
+        console.log("hihi")
+        checkVolum = true;
     }
 }
 

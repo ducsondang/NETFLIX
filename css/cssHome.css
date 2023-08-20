@@ -10,6 +10,66 @@
     src: url(../fonts/NetflixSans-Regular.otf);
 }
 
+/* Video */
+video {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#hero #heroVideoBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #hero #heroVideoBg {
+        display: inline-block;
+    }
+}
+
+#hero #heroImgBg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+@media (min-width: 768px) {
+    #hero #heroImgBg {
+        display: none;
+    }
+}
+
+#heroContent {
+    width: 50%;
+    height: fit-content;
+    align-items: center;
+    position: absolute;
+    top: 20rem;
+    left: 0;
+    padding-left: 5rem;
+}
+
 /* header */
 .discoloration {
     background-color: #141414;
@@ -18,7 +78,7 @@
 
 .discolorationNone {
     background-color: rgba(0, 0, 0, 0.0);
-    transition: 1s;
+    transition: 0.5s;
 
 }
 
@@ -45,6 +105,8 @@ ul.menu {
     padding: 0;
     margin: 0;
 }
+
+
 
 ul.menu>li>a {
     display: block;
@@ -144,6 +206,10 @@ header>div>div>div>span>img {
     flex-direction: column;
 }
 
+.lolomorow {
+    margin-top: 30px;
+}
+
 .rowHeader {
     color: white;
     font-weight: 500;
@@ -155,6 +221,32 @@ button {
     background-color: #141414;
     border: none;
 
+}
+
+.button>ul {
+    margin-top: 3rem;
+}
+
+.btBackgrooudPlay {
+    color: black;
+    background-color: white;
+    height: 3rem;
+    align-items: center;
+    font-size: 2rem;
+    display: flex;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+.btBackgrooudInfo {
+    border-radius: 3px;
+    margin-left: 10px;
+    background-color: rgba(58, 75, 90, 0.384);
+    height: 3rem;
+    align-items: center;
+    font-size: 1.5rem;
+    display: flex;
+    padding: 5px 20px;
 }
 
 .rowButton>button {
@@ -335,6 +427,7 @@ label {
     font-size: 2rem;
 }
 
+/* hinh nen */
 .backgroud {
     height: 30rem;
     background-image: url(../img/backgroudMovie.jpg);
@@ -350,44 +443,22 @@ label {
     margin-left: 3rem;
 }
 
-.button li {
-    height: 4rem;
-    font-size: 4rem;
-    border: none;
-    border-radius: 5px;
-    background-color: white;
-    color: black;
-    display: flex;
-    align-items: center;
-}
 
-.button li i {
-    font-size: 2.5rem;
-}
-
-.button li:last-child {
-    margin-left: 20px;
-    width: 100%;
-    color: white;
-    background-color: rgba(109, 109, 110, 0.7);
-}
-
-.button ul {
-    list-style: none;
-}
-
-.button li span,
-i {
-    color: black;
-    padding: 0 10px;
-}
-
-.button>input:hover {
+.button li:hover {
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.button li {
+    cursor: pointer;
 }
 
 .conten>p {
     margin-top: 20px;
+    font-size: 20px;
+}
+
+.conten>h1 {
+    font-size: 40px;
 }
 
 .movie-search {
