@@ -2,26 +2,26 @@
     {
         "id": 1,
         "name": "Đức Sơn",
-        "image": "Untitled"
+        "image": "avatar1"
     },
     {
         "id": 2,
-        "name": "Đức phước",
-        "image": "Untitled"
+        "name": "Đức Phước",
+        "image": "avatar2"
     },
     {
         "id": 3,
-        "name": "Đức long",
-        "image": "Untitled"
+        "name": "Đức Long",
+        "image": "avatar3"
     },
     {
         "id": 4,
-        "name": "Tuấn anh",
-        "image": "Untitled"
+        "name": "Tuấn Anh",
+        "image": "avatar4"
     },
     {
         "id": 5,
-        "name": "Tuấn anh",
-        "image": "Untitled"
+        "name": "Trẻ em",
+        "image": "avatar5"
     }
 ]

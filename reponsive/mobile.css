@@ -98,6 +98,18 @@ a:hover {
     font-size: 1rem;
     display: flex;
     padding: 5px 10px;
+}
 
+#hero {
+    position: relative;
+    width: 100%;
+    min-height: 40vh;
+}
 
+#hero h1 {
+    font-size: 1.5rem;
+}
+
+.xemthem {
+    display: none;
 }

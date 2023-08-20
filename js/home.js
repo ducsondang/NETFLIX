@@ -7,8 +7,8 @@ function loadMovie(cate) {
             if (c.category == cate.id) {
                 phim.push(c);
                 h += `
-                <a class="rowContainer" onclick="getMovie(${c.id})">
-                    <img src="./img/${c.image}.jpg" alt="${c.description}" >
+                <div class="rowContainer" onclick="getMovie(${c.id})">
+                    <img src="./img/${c.image}.jpg" alt="${c.description}"/>
                     <div class="itembot">
                         <div class="rowConten"><p class="name-movie">${c.name}</p>
                         <p></p>
@@ -19,7 +19,7 @@ function loadMovie(cate) {
                             <button><i class='bx bx-chevron-down-circle'></i></button>
                         </div>
                     </div>
-                </a>`;
+                </div>`;
             }
         }
         render(`rowMovie-${cate.id}`, h);
@@ -41,7 +41,7 @@ function loadCates() {
         for (let p of data) {
             h += `<div class="lolomorow padding" id="loloMovie-${p.id}">
                 <div class="rowHeader" title="Xem tất cả">
-                <h2>${p.name}</h2><i class='bx bx-chevron-right'></i>
+                <h2>${p.name}</h2><p><span class="viewAll">Xem tất cả<i class='bx bx-chevron-right'></i></span></p>
             </div>
             <div class="flex rowMovie" id="rowMovie-${p.id}">
             </div></div>`;
@@ -112,26 +112,57 @@ function render(idDiv, h) {
 //lấy dữ liệu category
 //tìm kiếm phim
 function movieSearch() {
+    document.getElementById("rowMovie-search").innerHTML = "";
+    const MV = []
     let k = document.getElementById("kw")
     if (k != null) {
         k = k.value;
         for (c of phim) {
             if (removeVietnameseTones(c.name).indexOf(removeVietnameseTones(k)) >= 0) {
-                renderMovieSearch(c.name);
+                MV.push(removeVietnameseTones(c.name))
             }
         }
+        for (c of MV) {
+            renderMovieSearch(c)
+            console.log(MV)
+        }
+    }
+    renderGoiYPhim()
+}
+// render gợi ý phim
+function renderGoiYPhim() {
+    console.log("haha")
+    document.getElementById("movie-goiy").style.display = "block";
+    let h = "";
+    for (let p of phim) {
+        h += `<div class="rowContainer" onclick="getMovie(${p.id})">
+            <img src="./img/${p.image}.jpg" alt="${p.description}"/>
+            <div class="itembot">
+                <div class="rowConten"><p class="name-movie">${p.name}</p>
+                <p></p>
+                </div>
+                <div class="rowButton">
+                    <button><i class='bx bx-play-circle'></i></button>
+                    <button><i class='bx bx-like'></i></button>
+                    <button><i class='bx bx-chevron-down-circle'></i></button>
+                </div>
+            </div>
+        </div>`;
+        let d = document.getElementById(`rowMovie-goiy`);
+        d.innerHTML = h;
     }
 }
 //render phim tìm kiếm
 function renderMovieSearch(name) {
+    const dem = 0;
     for (c of phim) {
-        document.getElementById("movie-search").style.paddingTop = "200px"
+        document.getElementById("movie-search").style.paddingTop = "100px"
+        document.getElementById("movie-search").style.display = "block";
         document.getElementById("hero").style.display = "none";
         document.getElementById("movies").style.display = "none";
-        document.getElementById("movie-search").style.display = "block";
-        if (c.name == name) {
+        if (removeVietnameseTones(c.name) == name) {
 
-            let h = `<a class="rowContainer" onclick="getMovie(${c.id})">
+            let h = `<div class="rowContainer" onclick="getMovie(${c.id})">
             <img src="./img/${c.image}.jpg" alt="${c.description}" >
             <div class="itembot">
                 <div class="rowConten"><p class="name-movie">${c.name}</p>
@@ -143,8 +174,8 @@ function renderMovieSearch(name) {
                     <button><i class='bx bx-chevron-down-circle'></i></button>
                 </div>
             </div>
-        </a>`
-            document.getElementById("rowMovie-search").innerHTML = h;
+        </div>`
+            document.getElementById("rowMovie-search").innerHTML += h;
         }
     }
 }
@@ -261,3 +292,15 @@ function backToTop() {
     })
 }
 backToTop();
+//hide model
+var checkModel = true;
+function removeModel() {
+    console.log("haha")
+    if (checkModel == true) {
+        document.getElementById("remove_model").style.display = "block";
+        checkModel = false;
+    } else {
+        document.getElementById("remove_model").style.display = "none";
+        checkModel = true;
+    }
+}

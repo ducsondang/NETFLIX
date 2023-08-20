@@ -56,7 +56,7 @@
             <video id="heroVideoBg" autoplay loop muted>
                 <source type="video/mp4" src="./video/movieBackgroud.mp4">
             </video>
-            <img id="heroImgBg" src="./img/backgroudMovie.jpg" alt="storm">
+            <img id="heroImgBg" src="./img/final.jpg" alt="storm">
             <div id="heroContent">
                 <div class="conten">
                     <h1>Top 6 Phim Hay Nhất Tháng</h1>
@@ -67,8 +67,12 @@
                 </div>
                 <div class="button">
                     <ul class="flex" style="list-style: none;">
-                        <li class="btBackgrooudPlay"><i style="color: black;" class='bx bx-play'></i>Play</li>
-                        <li class="btBackgrooudInfo"><i class='bx bx-info-circle'></i>Thông tin khác</li>
+                        <li class="btBackgrooudPlay"><i style="color: black;" class='bx bx-play'></i>
+                            <p class="btBackgrooudPlay xemthem">Play</p>
+                        </li>
+                        <li class="btBackgrooudInfo" onclick="removeModel()"><i class='bx bx-info-circle'></i>
+                            <p class="xemthem">Thông tin khác</p>
+                        </li>
                         <li class="btBackgrooudInfo"><i class='bx bx-volume-mute' id="volume"
                                 onclick="volumeControl()"></i></li>
                     </ul>
@@ -87,8 +91,59 @@
                 </div>
             </div>
         </div>
+        <div class="movies">
+            <div class="lolomorow padding movie-search" id="movie-goiy">
+                <div class="rowHeader">
+                    <h2>Gợi Ý Cho Bạn</h2>
+                </div>
+                <div class="flex rowMovie" id="rowMovie-goiy">
+                </div>
+            </div>
+        </div>
         <button id="back_to_top" class="toTop"><i class="fa-solid fa-angles-up"></i></button>
-
+        <div class="model" id="remove_model">
+            <div class="modelBackgroud">
+                <div class="model_imgbackgound">
+                    <i class='bx bx-x tx_X' onclick="removeModel()"></i>
+                </div>
+                <div class="model_conten">
+                    <div class="flex">
+                        <div class="modelconten_left">
+                            <div class="model_conten_top">
+                                <span>Độ trùng 88%</span>
+                                <p class="time"> 2019 2g 11ph</p>
+                                <p><span class="theLoai">16+</span> Hài, lãng mạng, lừa đảo, cuộc sống xã hội,...</p>
+                            </div>
+                            <div class="model_conten_bot">
+                                <p>Một câu chuyện tình đầy hài hước xoay quanh cô nhân viên ngân hàng Ina. Sau khi bị
+                                    Petch
+                                    – người
+                                    bạn trai cũ của mình bỏ trốn và để lại cho mình một món nợ, Ina lại gặp đen đủi một
+                                    lần
+                                    nữa khi
+                                    tiếp tục bị lừa bởi một chuyên gia lừa đảo khác tên là Tower, nhưng may mắn thay lần
+                                    này
+                                    Ina đã
+                                    phát hiện kịp thời. Tuy nhiên thay vì...</p>
+                            </div>
+                        </div>
+                        <div class="modelconten_ringht">
+                            <div>
+                                <p class="dienvien"><span>Diễn Viên: </span>Nadech Kugimiya, Baifern Pimchanok
+                                    Luevisadpaibul, Bank Thiti Mahayotaruk, Mam Kathaleeya McIntosh, Phuak Pongsatorn
+                                    Jongwilas, Ter Chantavit Dhanasevi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inputPlay">
+                        <li class="btBackgrooudPlay"><i style="color: black;" class='bx bx-play tx_play'></i>
+                            <p class="btBackgrooudPlay xemthem">Play</p>
+                    </div>
+                </div>
+                <div class="model_tuongtu">
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <table>

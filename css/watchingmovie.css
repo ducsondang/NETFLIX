@@ -7,23 +7,23 @@ main {
 }
 
 .left {
-    width: 70%;
+    width: 80%;
     margin: 5px;
 }
 
 .ringht {
-    width: 30%;
+    width: 20%;
     margin: 5px;
 }
 
 .movie {
     width: 100%;
-    height: 500px;
+    height: 80vh;
     border: none;
 }
 
 .rowContainer {
-    width: 50%;
+    width: 80%;
     height: 130px;
 }
 
@@ -53,4 +53,28 @@ main {
 
 .bt-watch-acti:hover {
     color: #cccccc;
+}
+
+.lolomorow {
+    padding-top: 0;
+    padding: 0 10px;
+    height: auto;
+}
+
+.colorInput {
+    background-color: white !important;
+    color: black;
+}
+
+.BTAll .Btall {
+    height: 30px;
+    background-color: rgba(46, 46, 46, 1);
+    margin-right: 5px;
+    padding: 0 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+.BTAll {
+    padding: 0 20px;
 }

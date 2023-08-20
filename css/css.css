@@ -7,6 +7,16 @@
 html,
 body {
     height: 100vh;
+    -ms-overflow-style: none;
+    /* cho  Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* cho Firefox */
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* cho Chrome, Safari, and Opera */
 }
 
 @font-face {
@@ -24,8 +34,7 @@ body {
 }
 
 .div {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 10%;
 }
 
 .users>a {

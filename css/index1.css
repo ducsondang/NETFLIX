@@ -1,33 +1,48 @@
-html, body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
     width: 100%;
-   
-}
-.imagelogin{
-    width: 100px;
-    height: 100%;
-   
 
 }
 
-.box{
+.imagelogin {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url("./img/image-bg.jpg"); */
+}
+
+.ima {
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
     text-align: center;
     background: black;
     border-radius: 5%;
-    opacity:.9;
+    opacity: .9;
     width: 400px;
     height: auto;
     padding: 30px;
-  z-index: 9999;
+    z-index: 9999;
     position: fixed;
-    left: 50%; top:50%;
-    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     box-shadow: 0px 0px 20px 0px #fff;
-    
+
 }
-.box h1{
-    color: brown;
+
+.box h1 {
+    color: #e50914;
 }
-.box input[type="password"], .box input[type="text"]{
+
+.box input[type="password"],
+.box input[type="text"] {
     background: azure;
     outline: none;
     width: 210px;
@@ -37,28 +52,31 @@ html, body{
     margin: 15px 0px;
     border: solid 2px blue;
     transition: 1s;
-   
+    border: 1px solid gray;
 }
-.box input[type="password"]:focus, .box input[type="text"]:focus{
+
+.box input[type="password"]:focus,
+.box input[type="text"]:focus {
     width: 320px;
-    border-color: brown;
+    border-color: #e50914;
     transition: 1s;
 }
-.box input[type="button"]{
+
+.box input[type="button"] {
     background: none;
     outline: none;
     width: 160px;
     height: 40px;
     border-radius: 40px;
     margin: 15px 0px;
-    border: solid 2px #002cff;
+    border: 1px solid gray;
     color: #fff;
     font-size: 18px;
     transition: 1s;
 }
-.box input[type="button"]:hover{
-    background:brown;
+
+.box input[type="button"]:hover {
+    background: #6b606183;
     transition: 1s;
     cursor: pointer;
 }
-
