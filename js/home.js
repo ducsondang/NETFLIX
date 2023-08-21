@@ -304,3 +304,72 @@ function removeModel() {
         checkModel = true;
     }
 }
+
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+})
+
+$(document).ready(() => {
+    let hinhanh = [1, 2, 3, 4]
+
+    let n = hinhanh.length;
+    let h = "";
+    for (let i = 0; i < n; i++)
+        h += `
+            <button class="digit">${i + 1}</button>
+        `;
+    $(".slider-button :first-child").after(h);
+    $(".slider").height($(".slider img").height() + 5);
+
+    let current = -1;
+
+    let showSlider = (current) => {
+        $(".slider > div").slideUp("slow");
+        $(".slider > div").eq(current).slideDown("slow");
+
+        $("button.digit").removeClass("active");
+        $("button.digit").eq(current).addClass("active");
+    }
+
+    $("button.digit").click(function () {
+        current = parseInt($(this).text()) - 1;
+        showSlider(current);
+
+        clearInterval(timer);
+        runSlider();
+    });
+    $(".next").click(function () {
+        current++;
+        if (current === n)
+            current = 0;
+        showSlider(current);
+    });
+    $(".prev").click(function () {
+        current--;
+        if (current < 0)
+            current = n - 1;
+        showSlider(current);
+    });
+
+    let timer = null;
+    let runSlider = () => {
+        timer = setInterval(() => {
+            $(".next").click();
+        }, 3000);
+    }
+    runSlider();
+});

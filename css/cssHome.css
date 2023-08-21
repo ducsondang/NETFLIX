@@ -314,6 +314,10 @@ button {
     border-radius: 3px;
 }
 
+.btBackgrooudPlay p {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
 .btBackgrooudInfo {
     border-radius: 3px;
     margin-left: 10px;
@@ -587,14 +591,23 @@ label {
     display: none;
 }
 
+.slider img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
 .modelBackgroud {
     margin-top: 3rem !important;
     width: 60%;
     margin: auto;
-    background-image: url(../img/final.jpg);
+    /* background-image: url(../img/final.jpg); */
     min-height: 100vh;
     position: relative;
     border-radius: 0.5rem;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .modelBackgroud .tx_X {
@@ -620,6 +633,7 @@ label {
     padding: 10px 30px 50px 30px;
     color: gray;
     font-size: 1.3rem;
+    z-index: 1;
 }
 
 .modelconten_left {
@@ -650,11 +664,36 @@ label {
 }
 
 .inputPlay {
-    width: 5rem;
+    width: 10rem;
     margin-top: 30px;
     cursor: pointer;
 }
 
 .model_conten span {
     color: green;
+}
+
+.owl-dots {
+    color: #0a5e98 !important;
+}
+
+.owl-nav {
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.owl-nav span {
+    font-size: 3rem;
+}
+
+.owl-next {
+    position: absolute;
+    right: 0;
+}
+
+.item img {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }

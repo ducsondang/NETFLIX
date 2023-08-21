@@ -113,3 +113,40 @@ a:hover {
 .xemthem {
     display: none;
 }
+
+.users {
+    width: 100vw;
+}
+
+.user {
+    width: 20%;
+}
+
+.imgUser {
+    width: 100%;
+    height: auto;
+}
+
+.conten {
+    font-size: 2rem;
+}
+
+.div {
+    margin-top: 50%;
+}
+
+.model_conten {
+    font-size: 10px;
+}
+
+.btBackgrooudPlay {
+    width: 90px;
+}
+
+.dplayHide {
+    display: block;
+}
+
+.modelBackgroud {
+    min-height: 65vh;
+}
