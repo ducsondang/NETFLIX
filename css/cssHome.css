@@ -106,18 +106,24 @@ ul.menu {
     margin: 0;
 }
 
-#login{
-    
-    
-    height:30px;
-    display:flex;
-    text-decoration: none;
-    margin:20px;
-    background:none;
-    margin-right: 2%;
-    margin-bottom: 12px;
+#login {
+    background: none;
     cursor: pointer;
+}
 
+#login i {
+    font-size: 25px;
+    /* margin-left: 10px; */
+}
+
+#user {
+    background: none;
+    cursor: pointer;
+}
+
+#user i {
+    font-size: 25px;
+    margin-left: 20px;
 }
 
 ul.menu>li>a {
