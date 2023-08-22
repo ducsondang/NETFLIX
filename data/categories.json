@@ -1,18 +1,22 @@
 [
     {
+        "id": 5,
+        "name": "PHIM ĐỀ XUẤT"
+    },
+    {
         "id": 1,
-        "name": "Phim tình cảm"
+        "name": "PHIM TÌNH CẢM"
     },
     {
         "id": 2,
-        "name": "Phim 16+"
+        "name": "PHIM 16+"
     },
     {
         "id": 3,
-        "name": "Sản xuất tại Hàn Quốc"
+        "name": "SẢN XUẤT TẠI HÀN QUỐC"
     },
     {
         "id": 4,
-        "name": "Có giải đặc biệt"
+        "name": "CÓ GIẢI ĐẶC BIỆT"
     }
 ]

@@ -24,7 +24,7 @@ main {
 
 .rowContainer {
     width: 80%;
-    height: 130px;
+    /* height: 130px; */
 }
 
 .watch-acti {
@@ -77,4 +77,13 @@ main {
 
 .BTAll {
     padding: 0 20px;
+}
+
+.rowConten {
+    margin: 0 auto;
+    font-size: 0.8vw;
+}
+
+#rowMovie-5 .rowContainer {
+    width: 100%;
 }

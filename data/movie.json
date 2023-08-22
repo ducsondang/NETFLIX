@@ -5,15 +5,15 @@
         "category": 3,
         "description": "Trong một đêm, cuộc đời đã xoay chuyển 180 độ!",
         "image": "item1",
-        "url": "'https://www.youtube.com/embed/qO0fJnc-4Qw'"
+        "url": "'https://www.youtube.com/embed/qO0fJnc-4Qw?autoplay=1'"
     },
     {
         "id": 2,
         "name": "Bỗng dưng trúng số",
         "category": 2,
-        "description": " ",
+        "description": "Kể về hành trình “hạ cánh” đầy bất ổn của một tờ vé số bay từ Hàn Quốc qua Triều Tiên. Từ đó, câu chuyện hài hước bậc nhất màn ảnh được mở ra khi những người lính của hai bên phải bước vào một cuộc đàm phán vô tiền khoáng hậu để quyết định số phận của giải độc đắc hàng triệu đô.",
         "image": "bongdungtrungso",
-        "url": "'https://www.youtube.com/embed/93zyix3ilWQ'"
+        "url": "'https://www.youtube.com/embed/93zyix3ilWQ?autoplay=1'"
     },
     {
         "id": 3,
@@ -21,142 +21,166 @@
         "category": 1,
         "description": "Ông bố đơn thân Seok-woo (Gong Yoo đóng) đưa con gái từ Seoul đến Busan trên chuyến tàucao tốc KTX. Vừa lên tàu, zombie đã xông vào nhà ga, virus zombie trên người một cô gái đitrên tàu bắt đầu hoành hành và không ngừng lây lan, khiến chuyến tàu ngay lập tức trở thànhthảm họa. Trên tuyến tàu cao tốc 442 km từ Seoul đến Busan, liệu người cha Seok-woo có thể vượt qua vòng vây và khó khăn để bảo vệ con gái yêu của mình đến nơi an toàn không?",
         "image": "chuyentausinhtu",
-        "url": "'https://www.youtube.com/embed/EYHLPsh-wEw'"
+        "url": "'https://www.youtube.com/embed/EYHLPsh-wEw?autoplay=1'"
     },
     {
         "id": 4,
         "name": "Đại dịch cúm",
         "category": 4,
-        "description": " ",
+        "description": "Đại Dịch Cúm kể về chuyến tàu chở những người vượt biên trái phép sang Hàn quốc không ngờ đang mang trong mình mầm mống hiểm họa khôn lường khi trong số người vượt biên có một người đang mang mầm bệnh dịch. Và điều gì đến đã đến! Những người trốn trong chiếc container trên tàu đều bị nhiễm bệnh mà chết, chỉ còn lại một người... Kang Ji-Koo (Jang Hyuk) là nhân viên cứu hỏa cùng bác sĩ Kim In-Hae (Soo-Ae) phải nhanh chóng cấp cứu và tìm ra chủng loại virus có khả năng gây chết người chỉ sau 36 giờ nhiễm bệnh cùng với cách điều trị. Và thời gian trở thành vấn đề cực đại khi Kim In Hae phát hiện ra chính con gái mình cũng đang mắc phải loại virus này.",
         "image": "daidichcum",
-        "url": "'https://www.youtube.com/embed/DUz1pZjsElw'"
+        "url": "'https://www.youtube.com/embed/DUz1pZjsElw?autoplay=1'"
     },
     {
         "id": 5,
         "name": "Kẻ lập dị",
         "category": 1,
-        "description": " ",
+        "description": "Chev Chelios (Jason Statham) là sát thủ chuyên nghiệp của một băng đảng xã hội đen ở Los Angeles. Sau nhiều năm tung hoành trên giang hồ, một ngày nọ gã quyết định rửa tay gác kiếm để sống một cuộc đời khác với cô bạn gái Eve (Amy Smart). Ông trùm Carlito (Carlos Sanz) chấp nhận quyết định của Chev, nhưng bắt gã phải thực hiện nhiệm vụ cuối cùng: giết kẻ cầm đầu tổ chức Hội Tam Hoàng ở LA. Nhưng Chev đã không làm được điều đó.",
         "image": "kelapdi",
-        "url": "'https://www.youtube.com/embed/YrOovhBcOck'"
+        "url": "'https://www.youtube.com/embed/YrOovhBcOck?autoplay=1'"
     },
     {
         "id": 6,
         "name": "Khi ta hai lăm",
         "category": 2,
-        "description": " ",
+        "description": "Khi Ta Hai Lăm xoay quanh hành trình thực hiện lời hứa năm 25 tuổi của Tuệ Lâm (Midu) với The Air, nhóm nhạc nam mà cô dành biết bao tâm huyết gầy dựng nhưng lại bị buộc phải tạm dừng hoạt động sau biến cố đau buồn. Đó là giúp họ có màn debut (ra mắt) thật xứng đáng.",
         "image": "khitahailam",
-        "url": "'https://www.youtube.com/embed/EYHLPsh-wEw'"
+        "url": "'https://www.youtube.com/embed/EYHLPsh-wEw?autoplay=1'"
     },
     {
         "id": 7,
         "name": "Kim cương máu",
         "category": 3,
-        "description": " ",
+        "description": "Blood Diamond (Kim Cương Máu) là bộ phim phiêu lưu hành động diễn ra vào giai đoạn nội chiến Sierra Leone thập niên 90. Danny Archer, một lính đánh thuê người Nam Phi tìm kiếm viên kim cương màu hồng độc nhất vô nhị nhưng mãi không được. Khi bị giam giữ trong tù vì tội buôn lậu, Archer biết được Solomon, người bị ép buộc làm việc tại khu đào kim cương đã tìm ra và giấu đi viên kim cương đặc biệt này.",
         "image": "kimcuongmau",
-        "url": "'https://www.youtube.com/embed/eDsrUYd2VbE'"
+        "url": "'https://www.youtube.com/embed/eDsrUYd2VbE?autoplay=1'"
     },
     {
         "id": 8,
         "name": "Ông bà Smit",
         "category": 4,
-        "description": " ",
+        "description": "Ông Bà Smith kể về John và Jane, mối tình của họ bắt đầu tình cờ khi Jane gặp chút rắc rối với cảnh sát và John xuất hiện cứu nguy cho người đẹp. Sau đó họ bắt đầu hẹn hò và cưới nhau. Hai người làm việc cho những tổ chức bí mật, nhưng bà Smith lại ngụy trang bằng một công việc ở ban biên tập một tạp chí thời trang còn ông Smith thì ra dáng một doanh nhân quản lý công việc kinh doanh của gia đình.",
         "image": "ongbasmit",
-        "url": "'https://www.youtube.com/embed/CZ0B22z22pI'"
+        "url": "'https://www.youtube.com/embed/CZ0B22z22pI?autoplay=1'"
     },
     {
         "id": 9,
         "name": "Tôi còn sống",
         "category": 1,
-        "description": " ",
+        "description": "Sống Sót​ xoay quanh một thành phố bị ảnh hưởng bởi virus bí ẩn và chỉ còn duy nhất hai người sống sót trong chính căn nhà của mình. Thức ăn dần cạn kiệt và lũ zombie có thể ập vào nhà bất cứ lúc nào, hai người sống sót - Joon-woo và Yoo-bin phải tìm cách sinh tồn khi đều ở trên tầng cao của căn chung cư.",
         "image": "toiconsong",
-        "url": "'https://www.youtube.com/embed/P5j_WVnj-p4'"
+        "url": "'https://www.youtube.com/embed/P5j_WVnj-p4?autoplay=1'"
     },
     {
         "id": 10,
         "name": "Siêu lừa gặp siêu lầy",
         "category": 2,
-        "description": " ",
+        "description": "Một câu chuyện tình đầy hài hước xoay quanh cô nhân viên ngân hàng Ina. Sau khi bị Petch – người bạn trai cũ của mình bỏ trốn và để lại cho mình một món nợ, Ina lại gặp đen đủi một lần nữa khi tiếp tục bị lừa bởi một chuyên gia lừa đảo khác tên là Tower, nhưng may mắn thay lần này Ina đã phát hiện kịp thời.",
         "image": "sieuluagapsieulay",
-        "url": "'https://www.youtube.com/embed/vT5hhe2YBJs'"
+        "url": "'https://www.youtube.com/embed/vT5hhe2YBJs?autoplay=1'"
     },
     {
         "id": 11,
         "name": "Trùm cớm và ác quỷ",
         "category": 3,
-        "description": " ",
+        "description": "kể về một kẻ giết người máu lạnh đang gây kinh hãi với hàng loạt vụ án mạng chấn động. Jang Dongsu Ma Dongseok một tay trùm băng đảng",
         "image": "trumcomvaacquy",
-        "url": "'https://www.youtube.com/embed/Nn3dGGRkObo'"
+        "url": "'https://www.youtube.com/embed/Nn3dGGRkObo?autoplay=1'"
     },
     {
         "id": 12,
         "name": "Cuộc chiếm ngầm",
         "category": 4,
-        "description": " ",
+        "description": " Han Jae Ho (Sol Kyung Gu) là một nhân vật quan trọng trong tổ chức nhập khẩu ma tuý trái phép của một ông trùm buôn lậu",
         "image": "cuocchienngam",
-        "url": "'https://www.youtube.com/embed/R7Gg-QH_HKU'"
+        "url": "'https://www.youtube.com/embed/R7Gg-QH_HKU?autoplay=1'"
     },
     {
         "id": 13,
         "name": "Đội quân siêu trộm",
         "category": 1,
-        "description": " ",
+        "description": "Trong bộ phim đạo tặc hấp dẫn này, những tay cướp chuyên nghiệp người Hàn và Trung hợp tác cuỗm viên kim cương 20 triệu đô trong hầm chứa bất khả xâm phạm của sòng bạc.",
         "image": "doiquansieutrom",
-        "url": "'https://www.youtube.com/embed/7w6nVUZjMYE'"
+        "url": "'https://www.youtube.com/embed/7w6nVUZjMYE?autoplay=1'"
     },
     {
         "id": 14,
         "name": "Hãy bắt tôi nếu có thể",
         "category": 2,
-        "description": " ",
+        "description": "Phim Bắt Tôi Nếu Có Thể New Rochelle, những năm 1960. Học sinh trung học Frank Abagnale Jr thần tượng cha mình, người đang gặp rắc rối với Sở Thuế Vụ. Khi cha mẹ ly thân, Frank chạy đi đến Manhattan với 25 $ trong tài khoản kiểm tra của mình, thề sẽ lấy lại thiệt hại cha và nhận được cha mẹ trở lại với nhau. Chỉ cần một vài năm sau đó, FBI lần theo dấu vết ở Pháp; anh ta bị dẫn độ, cố gắng, và bị bỏ tù vì đi qua nhiều hơn $ 4.000.000 trong kiểm tra xấu.Trên đường đi, anh ta đặt ra như là một thí điểm Pan Am, một bác sĩ nhi khoa, và một luật sư. Và, từ gần đầu của cuộc sống tội phạm này, anh ta đã theo đuổi một nhân viên FBI khắc khổ, Carl Hanratty. Những gì bắt đầu như mèo và chuột trở thành một cái gì đó giống như cha và con trai.",
         "image": "haybattoineucothe",
-        "url": "'https://www.youtube.com/embed/lN6Irv9tnYI'"
+        "url": "'https://www.youtube.com/embed/lN6Irv9tnYI?autoplay=1'"
     },
     {
         "id": 15,
         "name": "Kế hoạch bắt cóc",
         "category": 3,
-        "description": " ",
+        "description": "Robin-B-Hood (2006)  Một tên trộm mê cờ bạc và bạn của gã đánh cược tất cả vào một âm mưu bắt cóc em bé, nhưng rồi lại bị con tin nhỏ xíu của họ cuốn hút.",
         "image": "kehoachbatcoc",
-        "url": "'https://www.youtube.com/embed/y0h2yB42P5w'"
+        "url": "'https://www.youtube.com/embed/y0h2yB42P5w?autoplay=1'"
     },
     {
         "id": 16,
         "name": "Lừa đểu gặp lừa đảo",
         "category": 4,
-        "description": " ",
+        "description": "Robin-B-Hood (2006)  Một tên trộm mê cờ bạc và bạn của gã đánh cược tất cả vào một âm mưu bắt cóc em bé, nhưng rồi lại bị con tin nhỏ xíu của họ cuốn hút.",
         "image": "luadeugapluadao",
-        "url": "'https://www.youtube.com/embed/3TI0M4wnVSg'"
+        "url": "'https://www.youtube.com/embed/3TI0M4wnVSg?autoplay=1'"
     },
     {
         "id": 17,
         "name": "Lồng chim",
         "category": 1,
-        "description": " ",
+        "description": "Lồng Chim kể về Malorie Hayes (Sandra Bullock) di chuyển cùng hai đứa trẻ trong tình trạng bịt mắt. Cô nhấn mạnh rằng chúng không được tháo dải khăn ra nếu muốn toàn mạng. Hóa ra, trái đất lúc này đã rơi vào giai đoạn tận thế khi một sự kiện bí ẩn diễn ra khiến con người tự sát hàng loạt.",
         "image": "longchim",
-        "url": "'https://www.youtube.com/embed/Q2M3A8_PxDg'"
+        "url": "'https://www.youtube.com/embed/Q2M3A8_PxDg?autoplay=1'"
     },
     {
         "id": 18,
         "name": "Nhiệm vụ giải cứu",
         "category": 2,
-        "description": " ",
+        "description": "Sau khi đội của anh bị lừa, một điệp viên ráo riết tìm kiếm kẻ nội gián đã phản bội họ và ngăn không để một danh sách tối mật rơi vào tay kẻ xấu.",
         "image": "nhiemvugiaicuu",
-        "url": "'https://www.youtube.com/embed/sowSESNw5e0'"
+        "url": "'https://www.youtube.com/embed/sowSESNw5e0?autoplay=1'"
     },
     {
         "id": 19,
         "name": "Nhiệm vụ bất khả thi",
         "category": 3,
-        "description": " ",
+        "description": "Sau khi đội của anh bị lừa, một điệp viên ráo riết tìm kiếm kẻ nội gián đã phản bội họ và ngăn không để một danh sách tối mật rơi vào tay kẻ xấu.",
         "image": "nhiemvubatkhathi",
-        "url": "'https://www.youtube.com/embed/LHqjCiMJlfo'"
+        "url": "'https://www.youtube.com/embed/LHqjCiMJlfo?autoplay=1'"
     },
     {
         "id": 20,
         "name": "Chàng vợ cuả em",
         "category": 4,
-        "description": " ",
+        "description": "Sau khi liên tục gặp phải rắc rối với người giúp việc, Mai - một cô nàng công sở bận rộn cảm thấy vô cùng may mắn khi tìm được Ngọc ...",
         "image": "changvocuaem",
-        "url": "'https://www.youtube.com/embed/Or3SqGR_Qg4'"
+        "url": "'https://www.youtube.com/embed/Or3SqGR_Qg4?autoplay=1'"
+    },
+    {
+        "id": 21,
+        "name": "Võ sĩ giác đấu",
+        "category": 5,
+        "description": "Sau khi đội của anh bị lừa, một điệp viên ráo riết tìm kiếm kẻ nội gián đã phản bội họ và ngăn không để một danh sách tối mật rơi vào tay kẻ xấu.",
+        "image": "vosigiacdau",
+        "url": "'https://www.youtube.com/embed/sowSESNw5e0?autoplay=1'"
+    },
+    {
+        "id": 22,
+        "name": "Bá vương đường phố",
+        "category": 5,
+        "description": "Sau khi đội của anh bị lừa, một điệp viên ráo riết tìm kiếm kẻ nội gián đã phản bội họ và ngăn không để một danh sách tối mật rơi vào tay kẻ xấu.",
+        "image": "bavuongduongpho",
+        "url": "'https://www.youtube.com/embed/LHqjCiMJlfo?autoplay=1'"
+    },
+    {
+        "id": 23,
+        "name": "đời sống ngục tù",
+        "category": 5,
+        "description": "Sau khi liên tục gặp phải rắc rối với người giúp việc, Mai - một cô nàng công sở bận rộn cảm thấy vô cùng may mắn khi tìm được Ngọc ...",
+        "image": "doisongnguctu",
+        "url": "'https://www.youtube.com/embed/Or3SqGR_Qg4?autoplay=1'"
     }
 ]

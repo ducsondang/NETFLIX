@@ -10,13 +10,14 @@ function loadMovie(cate) {
                 <div class="rowContainer" onclick="getMovie(${c.id})">
                     <img src="./img/${c.image}.jpg" alt="${c.description}"/>
                     <div class="itembot">
-                        <div class="rowConten"><p class="name-movie">${c.name}</p>
-                        <p></p>
-                        </div>
                         <div class="rowButton">
                             <button><i class='bx bx-play-circle'></i></button>
                             <button><i class='bx bx-like'></i></button>
                             <button><i class='bx bx-chevron-down-circle'></i></button>
+                        </div>
+                        <div class="rowConten">
+                        <p><span>16+</span>Độ trùng:92%</p>
+                        <p><span>Thể loại</span>Kịch tính giật gân</p>
                         </div>
                     </div>
                 </div>`;
@@ -41,7 +42,7 @@ function loadCates() {
         for (let p of data) {
             h += `<div class="lolomorow padding" id="loloMovie-${p.id}">
                 <div class="rowHeader" title="Xem tất cả">
-                <h2>${p.name}</h2><p><span class="viewAll">Xem tất cả<i class='bx bx-chevron-right'></i></span></p>
+                <h2 class="categoryMovie" >${p.name}</h2><p><span class="viewAll">Xem tất cả<i class='bx bx-chevron-right'></i></span></p>
             </div>
             <div class="flex rowMovie" id="rowMovie-${p.id}">
             </div></div>`;
@@ -55,6 +56,7 @@ function loadCates() {
 
 window.onload = function () {
     loadCates();
+    loadingMovie(movieWatching.id);
 }
 var movieWatching = []
 function getMovie(id) {
@@ -63,19 +65,26 @@ function getMovie(id) {
             movieWatching[0] = c;
             if (window.location != "http://127.0.0.1:5501/wachingmovie.html") {
                 dieu_huong("./wachingmovie.html");
-                loadingMovie(c.id);
+                window.onload = () => {
+                    loadingMovie(c.id);
+
+                }
             } else {
                 loadingMovie(c.id);
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                })
             }
-            console.log(movieWatching)
         }
     }
 }
+
 function loadingMovie(movie) {
     for (c of phim) {
         if (c.id == movie) {
             document.getElementById("left").innerHTML = `
-            <iframe class="movie" src=${c.url} title="Sơ đồ lớp (class diagram)" target="_parent" frameborder="0"
+            <iframe class="movie" src=${c.url} title="" target="_parent" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
                 <div class="nameMovie">
@@ -85,7 +94,7 @@ function loadingMovie(movie) {
                     <div class="watch-acti-top">
                         <span>1930 lượt xem</span>
                         <span> 15/8/2023</span>
-                        <p class="name-movie ">Chuyến tàu sinh tử</p>
+                        <p class="name-movie ">${c.name}</p>
                     </div>
                     <div class="watch-acti-boottom" id="watch-acti-boottom">
                         <span>${c.description}
@@ -138,14 +147,15 @@ function renderGoiYPhim() {
         h += `<div class="rowContainer" onclick="getMovie(${p.id})">
             <img src="./img/${p.image}.jpg" alt="${p.description}"/>
             <div class="itembot">
-                <div class="rowConten"><p class="name-movie">${p.name}</p>
-                <p></p>
-                </div>
-                <div class="rowButton">
-                    <button><i class='bx bx-play-circle'></i></button>
-                    <button><i class='bx bx-like'></i></button>
-                    <button><i class='bx bx-chevron-down-circle'></i></button>
-                </div>
+            <div class="rowButton">
+            <button><i class='bx bx-play-circle'></i></button>
+            <button><i class='bx bx-like'></i></button>
+            <button><i class='bx bx-chevron-down-circle'></i></button>
+        </div>
+        <div class="rowConten">
+        <p><span>16+</span>Độ trùng:92%</p>
+        <p><span>Thể loại</span>Kịch tính giật gân</p>
+        </div>
             </div>
         </div>`;
         let d = document.getElementById(`rowMovie-goiy`);
@@ -165,14 +175,15 @@ function renderMovieSearch(name) {
             let h = `<div class="rowContainer" onclick="getMovie(${c.id})">
             <img src="./img/${c.image}.jpg" alt="${c.description}" >
             <div class="itembot">
-                <div class="rowConten"><p class="name-movie">${c.name}</p>
-                <p></p>
-                </div>
-                <div class="rowButton">
-                    <button><i class='bx bx-play-circle'></i></button>
-                    <button><i class='bx bx-like'></i></button>
-                    <button><i class='bx bx-chevron-down-circle'></i></button>
-                </div>
+            <div class="rowButton">
+            <button><i class='bx bx-play-circle'></i></button>
+            <button><i class='bx bx-like'></i></button>
+            <button><i class='bx bx-chevron-down-circle'></i></button>
+        </div>
+        <div class="rowConten">
+        <p><span>16+</span>Độ trùng:92%</p>
+        <p><span>Thể loại</span>Kịch tính giật gân</p>
+        </div>
             </div>
         </div>`
             document.getElementById("rowMovie-search").innerHTML += h;
@@ -245,7 +256,7 @@ function removeVietnameseTones(str) {
     str = str.replace(/Ò|Ó|Ọ|Ỏ|Õ|Ô|Ồ|Ố|Ộ|Ổ|Ỗ|Ơ|Ờ|Ớ|Ợ|Ở|Ỡ/g, "O");
     str = str.replace(/Ù|Ú|Ụ|Ủ|Ũ|Ư|Ừ|Ứ|Ự|Ử|Ữ/g, "U");
     str = str.replace(/Ỳ|Ý|Ỵ|Ỷ|Ỹ/g, "Y");
-    str = str.replace(/Đ/g, "D");
+    str = str.replace(/Đ/g, "d");
     str = str.replace(/H/g, "h");
     str = str.replace(/A/g, "a");
     str = str.replace(/B/g, "b");
@@ -282,6 +293,17 @@ function removeVietnameseTones(str) {
     str = str.replace(/!|@|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\;|\'|\"|\&|\#|\[|\]|~|\$|_|`|-|{|}|\||\\/g, " ");
     return str;
 }
+
+window.addEventListener("scroll", function (event) {
+
+    var scroll_y = this.scrollY;
+    // console.log(scroll_x, scroll_y);
+    if (scroll_y > 100) {
+        document.querySelector(".toTop").style.display = "block"
+    } if (scroll_y <= 30) {
+        document.querySelector(".toTop").style.display = "none"
+    }
+});
 const toTop = document.querySelector(".toTop")
 function backToTop() {
     toTop.addEventListener("click", function () {
@@ -310,6 +332,9 @@ $('.owl-carousel').owlCarousel({
     margin: 10,
     nav: true,
     dots: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
     responsive: {
         0: {
             items: 1
@@ -323,53 +348,55 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-$(document).ready(() => {
-    let hinhanh = [1, 2, 3, 4]
+// $(document).ready(() => {
+//     let hinhanh = [1, 2, 3, 4]
 
-    let n = hinhanh.length;
-    let h = "";
-    for (let i = 0; i < n; i++)
-        h += `
-            <button class="digit">${i + 1}</button>
-        `;
-    $(".slider-button :first-child").after(h);
-    $(".slider").height($(".slider img").height() + 5);
+//     let n = hinhanh.length;
+//     let h = "";
+//     for (let i = 0; i < n; i++)
+//         h += `
+//             <button class="digit">${i + 1}</button>
+//         `;
+//     $(".slider-button :first-child").after(h);
+//     $(".slider").height($(".slider img").height() + 5);
 
-    let current = -1;
+//     let current = -1;
 
-    let showSlider = (current) => {
-        $(".slider > div").slideUp("slow");
-        $(".slider > div").eq(current).slideDown("slow");
+//     let showSlider = (current) => {
+//         $(".slider > div").slideUp("slow");
+//         $(".slider > div").eq(current).slideDown("slow");
 
-        $("button.digit").removeClass("active");
-        $("button.digit").eq(current).addClass("active");
-    }
+//         $("button.digit").removeClass("active");
+//         $("button.digit").eq(current).addClass("active");
+//     }
 
-    $("button.digit").click(function () {
-        current = parseInt($(this).text()) - 1;
-        showSlider(current);
+//     $("button.digit").click(function () {
+//         current = parseInt($(this).text()) - 1;
+//         showSlider(current);
 
-        clearInterval(timer);
-        runSlider();
-    });
-    $(".next").click(function () {
-        current++;
-        if (current === n)
-            current = 0;
-        showSlider(current);
-    });
-    $(".prev").click(function () {
-        current--;
-        if (current < 0)
-            current = n - 1;
-        showSlider(current);
-    });
+//         clearInterval(timer);
+//         runSlider();
+//     });
+//     $(".next").click(function () {
+//         current++;
+//         if (current === n)
+//             current = 0;
+//         showSlider(current);
+//     });
+//     $(".prev").click(function () {
+//         current--;
+//         if (current < 0)
+//             current = n - 1;
+//         showSlider(current);
+//     });
 
-    let timer = null;
-    let runSlider = () => {
-        timer = setInterval(() => {
-            $(".next").click();
-        }, 3000);
-    }
-    runSlider();
-});
+//     let timer = null;
+//     let runSlider = () => {
+//         timer = setInterval(() => {
+//             $(".next").click();
+//         }, 3000);
+//     }
+//     runSlider();
+// });
+
+//marin top footter
