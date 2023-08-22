@@ -121,7 +121,7 @@ ul.menu {
     cursor: pointer;
 }
 
-#user i {
+#user .bx-user {
     font-size: 25px;
     margin-left: 20px;
 }
@@ -765,4 +765,65 @@ label {
 
 #rowMovie-search .rowContainer:hover {
     transform: scale(1.1);
+}
+
+.model_user {
+    position: absolute;
+    top: 28px;
+    background-color: #141414;
+    border-radius: 5px;
+    width: 200px;
+    right: 25px;
+    opacity: 0;
+    display: none;
+    transition: opacity 1s;
+}
+
+.model_user img {
+    height: 30px;
+}
+
+.item_user {
+    margin: 0 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.item_user:hover span {
+    color: grey;
+}
+
+.item_user:hover .bx-chevron-right {
+    display: inline;
+}
+
+.item_user .bx-chevron-right {
+    display: none;
+    font-size: 30px;
+    color: grey;
+}
+
+.item_user span {
+    font-size: 0.8rem;
+    margin: 0 10px 0 10px;
+}
+
+.item_user:last-child {
+    padding-bottom: 10px;
+}
+
+#user:hover .model_user {
+    opacity: 1;
+    display: block;
+}
+
+.model_user:hover {
+    opacity: 1;
+    display: block;
+}
+
+.bxs-folder-open,
+.bx-cog {
+    font-size: 30px;
+    color: grey;
 }

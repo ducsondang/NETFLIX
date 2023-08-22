@@ -3,26 +3,31 @@
     padding: 0;
 }
 
-    @keyframes box {
-        0% {
-            background-color: white;
-        }
-
-        50% {
-
-            background-color: black;
-
-        }
-
-        100% {
-            background-color:DarkGray;
-
-        } 
+@keyframes box {
+    0% {
+        background-color: white;
     }
+
+    50% {
+
+        background-color: black;
+
+    }
+
+    100% {
+        background-color: DarkGray;
+
+    }
+}
 
 html,
 body {
-    width: 100%;
+    height: 100vh;
+    -ms-overflow-style: none;
+    /* cho  Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* cho Firefox */
+    overflow-y: scroll;
 
 }
 
