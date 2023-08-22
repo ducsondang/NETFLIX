@@ -7,12 +7,12 @@ main {
 }
 
 .left {
-    width: 80%;
+    width: 75%;
     margin: 5px;
 }
 
 .ringht {
-    width: 20%;
+    width: 25%;
     margin: 5px;
 }
 
@@ -46,9 +46,11 @@ main {
 }
 
 .bt-watch-acti {
+    margin-top: 30px;
     background-color: rgba(0, 0, 0, 0.0);
     color: #747474;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .bt-watch-acti:hover {
@@ -86,4 +88,23 @@ main {
 
 #rowMovie-5 .rowContainer {
     width: 100%;
+}
+
+.theloai span {
+    color: grey;
+
+}
+
+.theloai .spanRinght {
+    right: 0;
+    /* position: absolute; */
+}
+
+.theloai div {
+    padding: 15px 0;
+    border-bottom: 1px solid grey;
+}
+
+.nameMovie {
+    margin-bottom: 10px;
 }

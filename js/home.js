@@ -86,23 +86,41 @@ function loadingMovie(movie) {
             document.getElementById("left").innerHTML = `
             <iframe class="movie" src=${c.url} title="" target="_parent" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-                <div class="nameMovie">
-                        <h1>${c.name}</h1>
+                allowfullscreen>
+            </iframe>
+            <div class="nameMovie">
+                <h1>${c.name}</h1>
+            </div>
+            <div class="watch-acti">
+                <div class="watch-acti-top">
+                    <span style="color:green">1930 lượt xem</span>
+                    <span style="color:grey"> 15/8/2023</span>
+                    <p class="name-movie ">${c.name}</p>
+                </div>
+                <div class="watch-acti-boottom" id="watch-acti-boottom">
+                    <span>${c.description}</span>
+                    <div class="theloai">
+                        <div>
+                            <span>Thể loại</span>
+                            <span class="spanRinght" style="color:green">Phim mới xuất bản</span>
+                        </div>
+                        <div>
+                            <span>Đạo Diễn</span>
+                            <span class="spanRinght">will.i.am</span>
+                        </div>
+                        <div>
+                            <span>Diễn Viên</span>
+                            <span class="spanRinght">Ẩn danh</span>
+                        </div>
+                        <div>
+                            <span>Năm Sản Xuất</span>
+                            <span class="spanRinght">15/08/2023</span>
+                        </div>
                     </div>
-                <div class="watch-acti">
-                    <div class="watch-acti-top">
-                        <span>1930 lượt xem</span>
-                        <span> 15/8/2023</span>
-                        <p class="name-movie ">${c.name}</p>
-                    </div>
-                    <div class="watch-acti-boottom" id="watch-acti-boottom">
-                        <span>${c.description}
-                        </span>
-                    </div>
-                    <button class="bt-watch-acti" id="bt-watch-acti" type="button" onclick="btWatching()">xem
-                        thêm</button>
-                </div>`
+                </div>
+                <button class="bt-watch-acti" id="bt-watch-acti" type="button" onclick="btWatching()">xem thêm</button>
+                    
+            </div>`
         }
     }
 
@@ -202,7 +220,7 @@ function volumeControl() {
         document.getElementById("heroVideoBg").muted = "muted";
         document.getElementById("volume").classList.add("bx-volume-mute");
         document.getElementById("volume").classList.remove("bx-volume-full");
-        console.log("hihi")
+        // console.log("hihi")
         checkVolum = true;
     }
 }
