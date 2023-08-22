@@ -106,7 +106,19 @@ ul.menu {
     margin: 0;
 }
 
+#login{
+    
+    
+    height:30px;
+    display:flex;
+    text-decoration: none;
+    margin:20px;
+    background:none;
+    margin-right: 2%;
+    margin-bottom: 12px;
+    cursor: pointer;
 
+}
 
 ul.menu>li>a {
     display: block;
