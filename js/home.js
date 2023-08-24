@@ -7,12 +7,12 @@ function loadMovie(cate) {
             if (c.category == cate.id) {
                 phim.push(c);
                 h += `
-                <div class="rowContainer" onclick="getMovie(${c.id})">
-                    <img src="./img/${c.image}.jpg" alt="${c.description}"/>
+                <div class="rowContainer">
+                    <img src="./img/${c.image}.jpg" onclick="getMovie(${c.id})" alt="${c.description}"/>
                     <div class="itembot">
                         <div class="rowButton">
-                            <button><i class='bx bx-play-circle'></i></button>
-                            <button><i class='bx bx-like'></i></button>
+                            <button><i class='bx bx-play-circle' onclick="getMovie(${c.id})"></i></button>
+                            <button><i class='bx bx-like' onclick="pushMovieLikes(${c.id})" ></i></button>
                             <button><i class='bx bx-chevron-down-circle'></i></button>
                         </div>
                         <div class="rowConten">
@@ -24,8 +24,6 @@ function loadMovie(cate) {
             }
         }
         render(`rowMovie-${cate.id}`, h);
-
-
         // Cách 1
         // let d = document.getElementById("menu");
         // d.innerHTML += h;
